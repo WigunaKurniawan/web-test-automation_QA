@@ -14,5 +14,15 @@ Tujuan:
 - Membuat test case menggunakan recorder
 - Analysis test error
 
+## BUG REPORT
+Type: Bug
+Priority: High
+Affect Version 0.0
 
+Description
+Langkah-langkahnya:
+1.  buka situ dari website https://myih.telkom.co.id/
+2.  sign/up pendaftaran
+
+Actual results: 
  
