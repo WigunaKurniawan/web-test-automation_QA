@@ -1,2 +1,3 @@
-# web-test-automation_QA
-Repository ini berisikan informasi hasil test case dan website test automation menggunakan SELENIUM IDE
+# LATAR BELAKANG
+Situs web merupakan media online tempat perusahaan melakukan interaksi dengan pelanggan untuk mencapai tujuan bisnisnya. Informasi dan kualitas yang disajikan dalam suatu website memiliki peranan penting bagi proses bisnis dan pembentuan citra perusahaan di mata masyarakat. Website yang baik harus memenuhi ekspetasi pengguna dalam menggunakan website. Hal inilah yang mendasari pentingya membangun website yang berkualitas dalam mnejalankan proses bisnis bagi TELKOM INDIHOME yang bergeraka dalam sektor jasa telekomunikasi di Indonesia. Untuk mengatasi banyaknya risiko kesalahan yang ditentukan dalam fase pengembangan website indihome maka perlu dilakukan pengujian pada website dalam hal ini menerapakan pengujian secara manual maupun otomatis. Dalam portfolio ini menggunakan Selenium IDE dan Python.
+
