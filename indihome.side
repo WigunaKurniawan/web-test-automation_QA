@@ -1,0 +1,196 @@
+{
+  "id": "0da1cdb9-6b08-42f0-b0bc-e7bbde182c5c",
+  "version": "2.0",
+  "name": "indihome",
+  "url": "https://myih.telkom.co.id",
+  "tests": [{
+    "id": "7946a1a3-bb29-495f-8b35-c42fbff2f43b",
+    "name": "sign up",
+    "commands": [{
+      "id": "52a706d0-c160-4603-a5b8-39ca80d2bd71",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb8f553c-8158-4369-a43d-2958d32dfac6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fe55781-8747-450e-92e8-df1b3b2d4e10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary:nth-child(2)",
+      "targets": [
+        ["css=.btn-primary:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='basic-navbar-nav']/ul/li[4]/button", "xpath:idRelative"],
+        ["xpath=//li[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34ab54e8-c6dd-440a-b465-01dd2ed43e9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-6 > .btn-primary",
+      "targets": [
+        ["css=.col-6 > .btn-primary", "css:finder"],
+        ["xpath=(//a[contains(text(),'Daftar')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/register/account-details')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43668b36-57db-4668-b216-b7e25cb3445f",
+      "comment": "",
+      "command": "click",
+      "target": "id=fullName",
+      "targets": [
+        ["id=fullName", "id"],
+        ["css=#fullName", "css:finder"],
+        ["xpath=//input[@id='fullName']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7ef167c-4e3f-4405-a421-92cd9de902d2",
+      "comment": "",
+      "command": "type",
+      "target": "id=fullName",
+      "targets": [
+        ["id=fullName", "id"],
+        ["css=#fullName", "css:finder"],
+        ["xpath=//input[@id='fullName']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "wiguna kurniawan"
+    }, {
+      "id": "947bd9d5-25f7-43f3-bb8e-b4c5013450f9",
+      "comment": "",
+      "command": "click",
+      "target": "id=mobileNumber",
+      "targets": [
+        ["id=mobileNumber", "id"],
+        ["css=#mobileNumber", "css:finder"],
+        ["xpath=//input[@id='mobileNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93769a7c-1edd-438d-9675-4f6ac6778e6d",
+      "comment": "",
+      "command": "type",
+      "target": "id=mobileNumber",
+      "targets": [
+        ["id=mobileNumber", "id"],
+        ["css=#mobileNumber", "css:finder"],
+        ["xpath=//input[@id='mobileNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "0895372365465"
+    }, {
+      "id": "c9d948b6-ca71-4386-b10d-91cb44230e04",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9613a204-203a-42fd-a5fa-2649c952bf6f",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "wiguna28@gmail.com"
+    }, {
+      "id": "89b6c308-55c8-4260-8e13-8c604ffce96a",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea421582-58c8-438d-ab17-ed178fcdd917",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Bnm280494cv"
+    }, {
+      "id": "8769408b-d96a-45c5-9d86-e0f31f0ec140",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/section/form/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9498f98f-1c82-4bbc-a509-fddd4837fdcd",
+      "comment": "",
+      "command": "click",
+      "target": "css=section > h1",
+      "targets": [
+        ["css=section > h1", "css:finder"],
+        ["xpath=//section/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Maaf, percobaan daftar akun gagal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71ac5374-e72d-45ef-b75a-092c731f3538",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=section > h1",
+      "targets": [
+        ["css=section > h1", "css:finder"],
+        ["xpath=//section/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Maaf, percobaan daftar akun gagal')]", "xpath:innerText"]
+      ],
+      "value": "Maaf, percobaan daftar akun gagal"
+    }]
+  }],
+  "suites": [{
+    "id": "be7aa66c-cead-4082-a6e3-aa603ac115e3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7946a1a3-bb29-495f-8b35-c42fbff2f43b"]
+  }],
+  "urls": ["https://myih.telkom.co.id/"],
+  "plugins": []
+}
