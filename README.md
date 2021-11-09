@@ -6,17 +6,13 @@ Dalam pengujian ini akan ditulis test cases untuk memverifikasi fungsi utama, ya
 
 ## Persiapan
 Web Site: https://myih.telkom.co.id/home
-Test user login:
 Platform: Google Chrome on Windows 8.1
 Software: Selenium IDE, TestWise Recorder, PyTest (Python)
 
 ## TEST SUITE: SIGN UP/ DAFTAR
 Tujuan:
 - Membuat test case menggunakan recorder
-- Test case beragam dengan file script test yang sama
 - Analysis test error
 
-Dimulai dengan membuat TEST CASES: 
-- Sign Up/ Daftar OK
-- Sign Up/ Daftar FAILED dengan invalid Nomor Ponsel, email, & Password
+
  
